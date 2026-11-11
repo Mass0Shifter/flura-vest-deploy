@@ -1,0 +1,31 @@
+{
+  "name": "@fluravest/api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 4000",
+    "build": "next build",
+    "vercel-build": "node scripts/vercel-build.mjs",
+    "start": "next start -p 4000",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@fluravest/core": "workspace:*",
+    "@fluravest/domain": "workspace:*",
+    "hono": "4.10.8",
+    "next": "15.5.29",
+    "react": "19.2.9",
+    "react-dom": "19.2.9",
+    "zod": "3.25.76",
+    "qrcode": "1.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "22.18.12",
+    "@types/react": "19.2.18",
+    "@types/qrcode": "1.5.5",
+    "typescript": "5.9.3",
+    "vitest": "3.2.4",
+    "tsx": "4.20.6"
+  }
+}

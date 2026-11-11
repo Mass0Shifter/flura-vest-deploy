@@ -1,0 +1,13 @@
+{
+  "name": "@fluravest/tokens",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Copied from Branding/Brand Kit v2/tokens. Re-sync from the brand kit; don't edit by hand.",
+  "main": "./tokens.ts",
+  "exports": {
+    ".": "./tokens.ts",
+    "./tailwind.preset.js": "./tailwind.preset.js",
+    "./fluravest-tokens.css": "./fluravest-tokens.css",
+    "./fonts/PlusJakartaSans.ttf": "./fonts/PlusJakartaSans.ttf"
+  }
+}

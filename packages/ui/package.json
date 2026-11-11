@@ -1,0 +1,16 @@
+{
+  "name": "@fluravest/ui",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./src/index.tsx",
+  "types": "./src/index.tsx",
+  "exports": { ".": "./src/index.tsx", "./api": "./src/api.ts", "./globals.css": "./src/globals.css", "./tailwind": "./tailwind.config.base.js" },
+  "scripts": { "typecheck": "tsc --noEmit" },
+  "dependencies": {
+    "@fluravest/domain": "workspace:*",
+    "@fluravest/tokens": "workspace:*",
+    "lucide-react": "0.552.0"
+  },
+  "peerDependencies": { "react": "^19", "swr": "^2" },
+  "devDependencies": { "@types/react": "19.2.18", "react": "19.2.9", "swr": "2.3.8", "typescript": "5.9.3" }
+}

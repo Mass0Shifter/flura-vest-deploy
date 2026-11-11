@@ -1,0 +1,10 @@
+@import "@fluravest/tokens/fluravest-tokens.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { background: var(--fv-bg); color: var(--fv-text); }
+body { font-family: var(--font-jakarta), var(--fv-font-sans); -webkit-font-smoothing: antialiased; }
+:focus-visible { outline: 2px solid var(--fv-focus-ring); outline-offset: 2px; }
+.tabular { font-variant-numeric: tabular-nums; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
