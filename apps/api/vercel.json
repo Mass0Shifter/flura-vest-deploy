@@ -2,5 +2,13 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "nextjs",
   "buildCommand": "pnpm run vercel-build",
-  "crons": [{ "path": "/api/cron/expire-pods", "schedule": "0 5 * * *" }]
+  "crons": [
+    {
+      "path": "/api/cron/expire-pods",
+      "schedule": "0 5 * * *"
+    }
+  ],
+  "regions": [
+    "lhr1"
+  ]
 }
